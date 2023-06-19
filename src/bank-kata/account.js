@@ -9,7 +9,9 @@ export class Account {
     this.logger = logger;
   }
 
-  deposit(amount) {}
+  deposit(amount) {
+    
+  }
 
   withdraw(amount) {}
 
