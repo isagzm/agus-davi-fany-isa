@@ -19,13 +19,13 @@ describe("Account", () => {
 
     account.deposit(1000);
     account.deposit(2000);
-    account.withdraw(500);
+    account.withdraw(400);
 
     account.printStatement();
 
     expect(logger.message).toEqual([
       "DATE | AMOUNT | BALANCE",
-      "24/01/2012 | 500.00 | 2500.00",
+      "24/01/2012 | 400.00 | 2600.00",
       "23/01/2012 | 2000.00 | 3000.0",
       "20/01/2012 | 1000.00 | 1000.0",
     ]);
