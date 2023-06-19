@@ -10,7 +10,9 @@ export class Account {
   }
 
   deposit(amount) {}
+
   withdraw(amount) {}
+
   printStatement() {
     this.logger.log("DATE | AMOUNT | BALANCE");
     this.logger.log("24/01/2012 | 500.00 | 2500.00");
